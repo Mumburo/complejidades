@@ -1,12 +1,28 @@
 body {
 	background-color: #282a36;
-	text-align: center;
+    text-align: center;
 	font-family: 'Space Mono', monospace;
 }
-
+header {
+    width: 25%;
+    padding: 1em;
+    vertical-align: center;
+    margin: 6rem auto auto auto;
+    text-align: left;
+    border: 2px solid #bd93f9;
+    border-radius: 4px;
+}
 H1 {
-	color: #bd93f9;
+	color: #bd93f9; 
+    font-weight: bold;
 }
 p {
 	color: #f8f8f2;
+    font-size: 1.2rem;
+    font-optical-sizing: auto;
+}
+i {
+	color: #bd93f9;
+    width: 600;
+    font-weight: bold; 
 }
