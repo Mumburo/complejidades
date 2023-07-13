@@ -34,3 +34,7 @@ i {
     width: 600;
     font-weight: bold; 
 }
+::selection {
+   background: #f1fa8c;
+   color: #21222c;
+}
