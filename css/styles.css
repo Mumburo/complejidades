@@ -3,8 +3,8 @@ body {
     text-align: center;
 	font-family: 'Space Mono', monospace;
 }
-header {
-    width: 25%;
+main {
+    width: 20%;
     padding: 1em;
     vertical-align: center;
     margin: 6rem auto auto auto;
@@ -12,13 +12,21 @@ header {
     border: 2px solid #bd93f9;
     border-radius: 4px;
 }
+header {
+    color: #6272a4; 
+}
 H1 {
+    font-size: 1.2rem;
 	color: #bd93f9; 
     font-weight: bold;
 }
+h3 {
+    font-size: 0.9rem;
+    font-style: normal;
+}
 p {
 	color: #f8f8f2;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-optical-sizing: auto;
 }
 i {
