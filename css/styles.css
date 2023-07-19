@@ -1,21 +1,35 @@
-body {
+        Body {
 	background-color: #282a36;
     text-align: center;
 	font-family: 'Space Mono', monospace;
 }
 main {
     width: 20%;
-    padding: 1em;
+    margin: auto;
     vertical-align: center;
-    margin: 6rem auto auto auto;
     text-align: left;
+}
+nav {
+    margin: 6rem auto auto auto;
+    padding: 1em;
+    border: 2px solid #bd93f9;
+    border-radius: 4px;
+}
+section {
+    margin: 6rem auto auto auto;
+    padding: 1em;
     border: 2px solid #bd93f9;
     border-radius: 4px;
 }
 header {
     color: #6272a4; 
 }
-H2 {
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+	color: #bd93f9; 
+}
+h2 {
     font-size: 1.29rem;
 	color: #bd93f9; 
     font-weight: bold;
