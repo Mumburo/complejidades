@@ -1,7 +1,8 @@
 Body {
     background-color: #282a36;
     text-align: center;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Space Grotesk', monospace;
+    font-optical-sizing: auto;
 }
 main {
     width: 20%;
@@ -16,11 +17,30 @@ nav {
     color: #bd93f9;
     border-radius: 4px;
 }
+nav:hover {
+    background-color: #21222c;
+}
+#main_title {
+    display: flex;
+    width: 50%
+}
+#nav_buttons {
+    display: flex;
+    width: 50%;
+    font-family: 'Space Mono', monospace;
+    text-align: right;
+    margin: auto;
+    vertical-align: center;
+    align-content: flex-end;
+}
 section {
     margin: 0px auto 2rem auto;
     padding: 1em;
     border: 2px solid #bd93f9;
     border-radius: 4px;
+}
+section:hover {
+    background-color: #21222c;
 }
 header {
     color: #6272a4; 
@@ -28,21 +48,23 @@ header {
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
+    width: 50%
 }
 h2 {
+
     font-size: 1.29rem;
     color: #bd93f9;
-    font-weight: bold;
+    font-weight: 600;
 }
 h3 {
+    font-family: 'Space Mono', monospace;
     font-size: 0.95rem;
     font-style: normal;
 }
 p {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Space Grotesk', monospace;
 	color: #f8f8f2;
     font-size: 1rem;
-    font-optical-sizing: auto;
 }
 i {
 	color: #bd93f9;
