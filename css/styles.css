@@ -1,18 +1,16 @@
 Body {
     background-color: #282a36;
-    text-align: center;
     font-family: 'Space Grotesk', monospace;
     font-optical-sizing: auto;
 }
 main {
     width: 20%;
     margin: auto;
-    vertical-align: center;
     text-align: left;
 }
 nav {
     margin: 4rem auto 1.5rem auto;
-    padding: 0rem 1em 0rem 1em;
+    padding: 1.2rem 1em 1rem 1em;
     border: 2px solid #bd93f9;
     color: #bd93f9;
     border-radius: 4px;
@@ -22,16 +20,32 @@ nav:hover {
 }
 #main_title {
     display: flex;
-    width: 50%
+    justify-content: space-between;
 }
 #nav_buttons {
-    display: flex;
-    width: 50%;
     font-family: 'Space Mono', monospace;
-    text-align: right;
-    margin: auto;
-    vertical-align: center;
-    align-content: flex-end;
+    text-align: center;
+    border: 2px solid #6272a4;
+    border-radius: 4px;
+    margin: 0 0 0 8rem;
+    padding: 0;
+    width: 1.7rem;
+}
+#nav_buttons > p {
+    color: #6272a4;
+    margin: 0;
+    padding: 0.16rem 0 0 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#nav_buttons:hover {
+    border: 2px solid #50fa7b;
+    color: #50fa7b;
+}
+#nav_buttons > p:hover {
+    color: #50fa7b;
 }
 section {
     margin: 0px auto 2rem auto;
@@ -48,10 +62,9 @@ header {
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
-    width: 50%
+    margin: 0;
 }
 h2 {
-
     font-size: 1.29rem;
     color: #bd93f9;
     font-weight: 600;
