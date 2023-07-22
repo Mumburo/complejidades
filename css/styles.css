@@ -44,11 +44,11 @@ nav:hover {
     border: 2px solid #50fa7b;
     color: #50fa7b;
 }
-#nav_buttons > p:hover {
+#nav_buttons:hover > p {
     color: #50fa7b;
 }
 section {
-    margin: 0px auto 2rem auto;
+    margin: 0px auto 1.5rem auto;
     padding: 1em;
     border: 2px solid #bd93f9;
     border-radius: 4px;
